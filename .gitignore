@@ -1,0 +1,12 @@
+/copia-proyecto
+/node_modules
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local    
+/py_cache
+*.exe
+*.jar
+*.tar
+*.mp4
+commits.txt
