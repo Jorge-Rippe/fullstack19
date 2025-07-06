@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <style>
+        #titulo1 {
+            color: red;
+            font-size: 30px;
+            margin-top: 31px;
+            margin-left: 45px;
+            margin-bottom: 33px;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 3px 5px 5px 31px;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            width: 200px;
+            font-family: "Montserrar", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo1">titulo 1</h1>
+    <h2 id="titulo2">titulo 2</h2>
+    <h3>titulo 3</h3>
+    <h4>titulo 4</h4>
+    <h5>titulo 5</h5>
+    <details>
+           <summary>ver mas información</summary>
+    <p>Esta es la prueba que esta realizando Jorge</p>
+    </details>
+    <hr />
+    <label for="">formularios</label>
+    <form action="http://formularios.html">
+        <label for="">ingrese su usuario</label>
+        <input placeholder="ingresa username" type="text" /> <br /><br />
+        <label for="">ingrese su correo</label>
+        <input placeholder="ingresar email" type="email" /> <br /><br />
+        <label for="">fecha de nacimiento</label>
+        <input type="date" /> <br /><br />
+        <input type="submit" />
+        <button>Ingresar informacion</button>
+    </form>
+    <br />
+    <hr />
+    <label for="">ventanas de dialogo</label>
+    <dialog id="miventana" close>
+        <p>esto es un mensaje de prueba</p>
+        <button onclick="miventana.close()">cerrar ventana</button>
+    </dialog> 
+    <button onclick="miventana.showModal()">abrir ventana</button>
+    <br />
+    <hr />
+    <label for="">barras de progreso</label>
+    <meter value="0.7" min="0" max="1">70%</meter>
+    <br />
+    <hr />
+    <label for="">paginjas emergentes</label>
+    <iframe
+        width="200"
+        height="200"
+        src="https://www.youtube.com/embed/9bZkp7q19f0?controls=0&autoplay=1&mute=1"
+        frameborder="1"
+        allowfullscreen> 
+    ></iframe>
+    <br />
+    <hr />
+    <a href="#">ir al inicio</a>
+    <br />
+    <hr />
+    <input type="checkbox" />
+    <label for="mostrar">mostrar opciones</label>
+    </body>
+</html>
