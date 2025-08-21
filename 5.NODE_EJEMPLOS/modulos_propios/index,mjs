@@ -1,0 +1,8 @@
+//modulos propios usando Ecma Module
+//importacion
+
+import {sumar, restar, multiplicacion} from "./operaciones.mjs";
+
+console.log(suma(2, 3));
+console.log(resta(5, 2));
+console.log(multiplicacion(4, 3));

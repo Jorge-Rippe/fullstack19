@@ -8,18 +8,51 @@
       .titulo {
         color: red;
       }
+      table{
+        border: 2px solid rgb(241, 228, 228);
+        width: 500px;
+        margin-top: 20px;
+        text-align: center;
+      }
+      table thead tr td {
+        font-weight: bold;
+      }
+      table tbody tr td {
+        color: blueviolet;
+      }
     </style>
 </head>
 <body>
     <div id="root">
         <H1>TITULO 1</H1>
         <h1>TITULO 2</h1>
+        <div id="parrafosId">
         <p class="parrafos">parrafo 1</p>
         <p class="parrafos">parrafo 2</p>
-        <p class="parrafos">parrafo 3</p>
-        <input type="text" placeholder="ingrese un texto" />
-        <input type="text" placeholder="ingrese un texto" />
-        <input type="submit" />
+        <p class="parrafos">parrafo 3</p>     
+        </div>
+        <input id="nombre-estudiante"
+         type="text" 
+         placeholder="ingrese un nombre" />
+        <input id="apellido-estudiante" 
+        type="text" 
+        placeholder="ingrese un apellido" />
+        <input type="submit" onclick="agregarEstudiante()" value="Agregar Estudiante" />
+        <button id="cargar-datos">Cargar datos</button>
+    <div id="tabla">
+      <table border="1">
+        <thead>
+          <tr>
+            <td>Nombre</td>
+            <td>Apellido</td>
+          </tr>
+        </thead>
+        <tbody>
+         
+        </tbody>
+      </table>
+
+    </div>    
     </div>
     <script src="./1.dom.js"></script>
 </body>

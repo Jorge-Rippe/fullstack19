@@ -10,3 +10,4 @@
 *.tar
 *.mp4
 commits.txt
+/.node_modules
